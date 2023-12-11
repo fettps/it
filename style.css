@@ -1,0 +1,48 @@
+body {
+    background-color: #cfcece;
+}
+
+.wrapper {
+    max-width: 800px;
+    min-height: calc(100vh - 50px);
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.heading {
+    text-align: center;
+}
+
+.text-heading {
+    margin-top: 20px;
+    font-size: 55px;
+    color: rgb(224, 183, 187);
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+}
+
+.column {
+    width: 50%;
+}
+
+.column h2 {
+    margin-top: 50px;
+    color: rgb(224, 183, 187);
+}
+
+.column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.line { 
+    border-top: 5px solid black;  
+    margin: 20px auto 20px 0px;  
+    width: 200px 
+}
